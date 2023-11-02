@@ -1,7 +1,5 @@
 # 3D-MAZE
 
-Certainly! Below is an updated README tailored to your 3D maze game powered by SDL2 and written primarily in C:
-
 # 3D Maze Game
 
 ![Game Screenshot](screenshot.png)
