@@ -24,20 +24,27 @@
 - C Compiler
 - SDL2 Library
 
-### Installation
+ - Sdl2 installation
+download the installation script [install_SDL2.sh](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-low_level_programming/graphics_programming/install_SDL2.sh) and run it in your ubuntu Terminal as follows:
+root@h:cd ~/Downloads$ ls
+install_SDL2.sh
+root@h:cd ~/Downloads$chmod 755 install_SDL2.sh
+root@h:cd ~/Downloads$sudo ./install_SDL2.sh
 
-1. Clone the repository.
-   ```sh
-   git clone https://github.com/your-username/3d-maze-game.git
+# Play the game
+ - clone the [github repository](https://github.com/Susiniosgit/3D_Maze.git)
+ - Compile all .c files in the maze directory:
+  ```
+  gcc -Wall -Werror -Wextra -pedantic ./src/*.c -lm $(sdl2-config --cflags --libs) -lSDL_image -o maze
    ```
-2. Compile the game using the following command:
-   ```sh
-   gcc -o game main.c -lSDL2
-   ```
-3. Run the executable file.
-   ```sh
-   ./game
-   ```
+ - Execute ./mazea and play game.
+ - Use up and down arrow keys to move forward and backward (keys w and s serve the same function)
+ - Use right and left arrow keys to turn the camera arround (keys d and a serve the same function)
+# Controls
+ W or up arrow key - Moving forward
+ S or down arrow - Moving backward
+ left arrow key - to rotate the player in counter clock wise direction
+ right arrow key - to rotate the player in clock wise direction
 
 ### Usage
 
