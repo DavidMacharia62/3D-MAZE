@@ -2,6 +2,48 @@
 
 # 3D Maze Game
 
+[About](#about) | [Features](#features) | [Installation](#installation) | [Gameplay](#gameplay) | [Contributing](#contributing) | [License](#license) | [Live Demo](#live-demo)
+
+## About
+
+The 3D Maze Game is an immersive gaming experience that challenges players to navigate through intricate mazes. Developed using SDL2 and written primarily in C, this game offers a visually engaging journey through dynamic 3D environments.
+
+## Features
+
+- Seamless 3D gameplay experience with intricate maze designs and challenging puzzles.
+- Smooth camera movements and interactions within the 3D environment for a realistic gaming experience.
+- Immersive visual elements, including textured walls, ground, and ceiling, enhancing the overall game atmosphere.
+- Dynamic enemy encounters and engaging combat mechanics, providing an adrenaline-fueled gaming experience.
+
+## Installation
+
+To install and run the 3D Maze Game, follow these steps:
+
+1. Clone the repository to your local machine.
+2. Compile the game using a C compiler and the SDL2 library.
+3. Run the executable file to start playing the game.
+
+## Gameplay
+
+Navigate through the 3D maze using the arrow keys. Solve puzzles, defeat enemies, and reach the end of the maze to win. Avoid obstacles and strategically use weapons to overcome challenges along the way.
+
+## Contributing
+
+Contributions to the 3D Maze Game are welcome! If you find any issues or have suggestions for improvement, please submit a pull request or open an issue in the GitHub repository.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE). See the [LICENSE](LICENSE) file for details.
+
+## Live Demo
+
+Check out the live demo of the 3D Maze Game [here](https://youtu.be/w-jG2OJYMuA?si=eUNMRL3dtG0WwZTj).
+
+For any inquiries or collaboration opportunities, please contact us at [davidmacharia1@gmail.com](mailto:davidmacharia1@gmail.com).
+
+
+# 3D Maze Game
+
 ![Game Screenshot](screenshot.png)
 
 ## Description
@@ -32,7 +74,7 @@ root@h:cd ~/Downloads$chmod 755 install_SDL2.sh
 root@h:cd ~/Downloads$sudo ./install_SDL2.sh
 
 # Play the game
- - clone the [github repository](https://github.com/Susiniosgit/3D_Maze.git)
+ - clone the [github repository](https://github.com/DavidMacharia62/3D-MAZE.git)
  - Compile all .c files in the maze directory:
   ```
   gcc -Wall -Werror -Wextra -pedantic ./src/*.c -lm $(sdl2-config --cflags --libs) -lSDL_image -o maze
