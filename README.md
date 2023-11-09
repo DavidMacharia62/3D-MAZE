@@ -71,9 +71,11 @@ root@h:cd ~/Downloads$sudo ./install_SDL2.sh
 
 - [David Macharia
 
+![Game introduction video](3D_maze_intro.mp4)
+
 ## License
 
-This project is licensed under the [Insert License]. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the [MIT]. See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 
