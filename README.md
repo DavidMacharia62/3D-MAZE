@@ -69,9 +69,9 @@ root@h:cd ~/Downloads$sudo ./install_SDL2.sh
 
 ## Contributors
 
-- [David Macharia
+- [David Macharia]
 
-![Game introduction video](3D_maze_intro.mp4)
+[![Game Intro Video](https://img.youtube.com/vi/yxflS4_jWE8/0.jpg)](https://youtu.be/yxflS4_jWE8)
 
 ## License
 
