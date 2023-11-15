@@ -1,6 +1,5 @@
 #include "../headers/header.h"
 
-player_t player;
 /**
  * display_player - function to display the player
  * @instance: the given sdl2 instance
